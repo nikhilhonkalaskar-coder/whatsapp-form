@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp OTP Verification</title>
+</head>
+<body>
+
+<form id="leadForm">
+  <input name="name" placeholder="Full Name" required />
+  <input name="phone" placeholder="WhatsApp Number" required />
+  <input name="email" placeholder="Email" />
+  <input name="city" placeholder="City" />
+  <button type="submit">Send OTP</button>
+</form>
+
+<div id="otpBox" style="display:none">
+  <input id="otp" placeholder="Enter OTP" />
+  <button onclick="verifyOtp()">Verify OTP</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
